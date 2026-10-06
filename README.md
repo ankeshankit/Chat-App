@@ -152,6 +152,11 @@ Call History
 
 ## 📄 pubspec.yaml Dependencies
 
+# 📦 Dependencies
+
+## Dependencies
+
+```yaml
 dependencies:
   flutter:
     sdk: flutter
