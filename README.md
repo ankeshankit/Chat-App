@@ -150,13 +150,11 @@ Call Status
 Call History
 
 
-## 📄 pubspec.yaml Dependencies
+### 📄 pubspec.yaml Dependencies
 
 # 📦 Dependencies
 
-## Dependencies
-
-```yaml
+## Dependencies```yaml
 dependencies:
   flutter:
     sdk: flutter
@@ -178,7 +176,10 @@ dev_dependencies:
 
 
 
-## 📋 Install All Dependencies
+
+
+
+### 📋 Install All Dependencies
 
 flutter pub add firebase_core
 flutter pub add firebase_auth
