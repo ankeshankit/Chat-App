@@ -203,6 +203,51 @@ flutter pub get
   min_sdk_android: 21
 
 
+
+# 🔥 Firebase Setup & Connection
+
+This project uses Firebase for authentication, real-time chat, notifications, and call signaling.
+
+## Firebase Services Used
+
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Cloud Messaging (FCM)
+- Firebase Storage
+- Firebase Core
+
+---
+
+## 🔗 Connect Flutter App with Firebase
+
+### 1. Install Firebase CLI
+
+Login to Firebase:
+
+firebase login
+
+Check Firebase projects:
+
+firebase projects:list
+2. Install FlutterFire CLI
+dart pub global activate flutterfire_cli
+
+3. Configure Firebase
+
+From the Flutter project root directory:
+
+flutterfire configure
+
+Select your Firebase project and platforms:
+
+Android
+iOS
+
+This generates:
+
+lib/firebase_options.dart
+
+
 ## 🔄 Complete Application Flow
 
                          ┌───────────────────┐
